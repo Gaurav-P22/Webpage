@@ -1,0 +1,70 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #select
+{
+    width: 150px;
+    height: 35px;
+}
+table
+{
+    height: 400px;
+}
+div
+{
+    background-image: linear-gradient(to right,lightpink,skyblue);
+    border: 1px solid black;
+    opacity: .8;
+    width: 75%;
+}
+    </style>
+</head>
+<body bgcolor="grey">
+    <center>
+        <h1><u>Survey Form</u></h1>
+        <div>
+    <table cellspacing="5px" cellpadding="10px">
+        <tr>
+         <td>Name</td>
+         <td><input type="text" placeholder="Enter your name"></td>   
+        </tr>
+        <tr>
+            <td>Hobbies</td>
+            <td><input type="checkbox" value="Playing">Play
+                <input type="checkbox" value="Dancing">Dance
+                <input type="checkbox" value="Singing">Sing</td>   
+           </tr>
+           <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="rad">Female
+                <input type="radio" name="rad">Male</td>   
+           </tr>
+           <tr>
+            <td>Address</td>
+            <td><textarea name="" id="" cols="20" rows="10"></textarea></td>   
+           </tr>
+           <tr>
+            <td>Nationality</td>
+            <td><select name="" id="select"><option value="">-select-</option><option value="">Chinease</option>
+                <option value="">Arabian</option>
+                <option value="">European</option>
+                <option value="">Indian</option></select></td>   
+           </tr>
+           <tr>
+            <td>Pin</td>
+            <td><input type="number" placeholder="Enter your pin"></td>   
+           </tr>
+           <tr>
+            <td colspan="2"><input type="submit" style="margin-left:60px ;width: 200px;height:35px;background-color: burlywood;"></td>
+             
+           </tr>
+    </table>
+</div>
+</center>
+</body>
+</html>
